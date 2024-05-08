@@ -1,31 +1,11 @@
 user_id,activity,duration,heart_rate_max,heart_rate_min,heart_rate_avg
-660acbc9bb620879ae7b4d1c,Cycling,3600,,,,,,
-660d73debb620879aef918af,Cycling,3008,,,,,,
-660ec999bb620879ae745e2a,Cycling,1218,,,,,,
-660fbe46bb620879aecffe44,Walking,3060,,,,,,
-6612ab18bb620879aebccaf3,Cycling,2591,,,,,,
-6613b891bb620879ae5e290b,Strength Training,1320,,,,,,
-6613b891bb620879ae5e2af9,Strength Training,1320,,,,,,
-661b4c24e199c5a3362a763e,Cycling,1560,,,,,,
-661b7117e199c5a33679eaa9,Unknown (Unable to Detect Activity),5160,,,,,,
-661b7119e199c5a33679ed6e,Unknown (Unable to Detect Activity),5160,,,,,,
-661b711ae199c5a33679f19c,Unknown (Unable to Detect Activity),2560,60,840,1680,220,30,109
-661b711ae199c5a33679f2a0,Unknown (Unable to Detect Activity),5160,,,,,,
-661b711be199c5a33679f5f0,Unknown (Unable to Detect Activity),4020,,,,,,
-661b7708e199c5a33686805f,Walking,3780,,,,,,
-661bf02ce199c5a336c1ee1a,Cycling,3049,,,,,,
-661c2452e199c5a3366eb042,Cycling,1378,,,,,,
-661c3b47e199c5a336ba78fd,Cycling,5838,,,,,,
-661f67a8e199c5a336a46408,Walking,2520,,,,,,
-6621088fe199c5a336653588,Unknown (Unable to Detect Activity),720,,,,,,
-662271a1fd3b48b1cd9a5641,Walking,2220,,,,,,
-662271a2fd3b48b1cd9a5700,Walking,660,,,,,,
-66235bb6fd3b48b1cda77dd7,Walking,2400,,,,,,
-66240161fd3b48b1cd8da6c4,Walking,1500,,,,,,
-6624bee9fd3b48b1cd9a5a3e,Walking,2280,,,,,,
-6625a93ffd3b48b1cd213275,Walking,1560,,,,,,
-66267495fd3b48b1cd006c52,Walking,1380,,,,,,
-662674c3fd3b48b1cd01415c,Walking,660,,,,,,
-66274a91fd3b48b1cd878017,Walking,1320,,,,,,
-6627c31340eefde5293b465c,Walking,960,,,,,,
-662ce4f940eefde529c92e16,Walking,1740,,,,,,
+65a589d92448379cf3d39e99,INDOOR_CYCLING,1505,,,,147,,107
+65a589d82448379cf3d39b80,INDOOR_CYCLING,1505,,,,147,,107
+659f2fe32448379cf3bb650d,,1295,,,,149,,122
+6596fe29085e3f7296055517,Cycling,650,,,,118,,97
+65b2ec8ce123e5924fac6fe8,Walking,1084,,,,119,,104
+65a146e22448379cf34f939b,WALKING,1063,,,,128,,111
+65b07314481d3d7b4a8f2094,Walking,184,,,,0,,0
+65949258085e3f7296624f9c,HIIT,5063,,,,184,,130
+659eaf0b085e3f72964c678f,Walking,369,,,,130,,93
+65b07318481d3d7b4a8f44a1,Walking,184,,,,0,,0

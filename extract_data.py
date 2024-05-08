@@ -96,8 +96,4 @@ def process_json_file(file_path):
 
 
 # Llamada de la función
-process_json_file('ROOK Datasets/ROOKConnect-Fitbit-dataset-v2.json')
-process_json_file('ROOK Datasets/ROOKConnect-Garmin-dataset-v2.json')
-process_json_file('ROOK Datasets/ROOKConnect-Oura-dataset-v2.json')
-process_json_file('ROOK Datasets/ROOKConnect-Whoop-dataset-v2.json')
-process_json_file('ROOK Datasets/ROOKConnect-Polar-dataset-v2.json')
+process_json_file('ROOKConnect-Oura-dataset-v2.json')
