@@ -39,8 +39,8 @@ with open('data_sleep.csv', 'w', newline='') as f:
 
 
 # Extracción de data de activity (summaries)
-
-with open('data_activity_event.csv', 'w', newline='') as f:
+# Abre el archivo data_activity_event.csv en modo de escritura
+with open('data_activity.csv', 'w', newline='') as f:
     writer = csv.writer(f)
 
     # Escribe los encabezados de las columnas
@@ -51,7 +51,6 @@ with open('data_activity_event.csv', 'w', newline='') as f:
         user_id = item.get('user_id')
 
         # Datos relevantes
-
         granular_data = item.get('physical_health',{}).get('summary',{}).get('physical_summary',{}).get('heart_rate',{}).get('hr_granular_data_array')
         for item in granular_data:
             heart_rate = item.get('hr_bpm_int')
@@ -62,10 +61,35 @@ with open('data_activity_event.csv', 'w', newline='') as f:
             dt = dt.replace(tzinfo=None)
             date = dt.isoformat()
 
-        # Escritura en CSV
+            # Escritura en CSV
             writer.writerow([user_id, date, heart_rate])
 
 
 # Extracción de data de activity (eventos)
+# Abre el archivo data_activity.csv en modo de escritura
+with open('data_activity_event.csv', 'w', newline='') as f:
+    writer = csv.writer(f)
 
-#writer.writerow(['user_id', 'activity', 'duration', 'heart_rate_max', 'heart_rate_min', 'heart_rate_avg'])
+    # Escribe los encabezados de las columnas
+    writer.writerow(['user_id', 'activity', 'duration', 'heart_rate_max', 'heart_rate_min', 'heart_rate_avg'])
+
+    # Itera sobre los elementos en los datos
+    for item in data_activity_event:
+        user_id = item.get('user_id')
+
+        # Datos relevantes
+        events = item.get('physical_health',{}).get('events',{}).get('activity_event')
+        for item in events:
+            activity = item.get('activity',{}).get('activity_type_name_string')
+            duration = item.get('activity',{}).get('activity_duration_seconds_int')
+ 
+            low_intensity = item.get('activity',{}).get('low_intensity_seconds_int')
+            moderate_intensity = item.get('activity',{}).get('moderate_intensity_seconds_int')
+            vigorous_intensity = item.get('activity',{}).get('vigorous_intensity_seconds_int')
+
+            heart_rate_max = item.get('heart_rate',{}).get('hr_maximum_bpm_int')
+            heart_rate_min = item.get('heart_rate',{}).get('hr_minimum_bpm_int')
+            heart_rate_avg = item.get('heart_rate',{}).get('hr_avg_bpm_int')
+
+            # Escritura en CSV
+            writer.writerow([user_id, activity, duration, low_intensity, moderate_intensity, vigorous_intensity, heart_rate_max, heart_rate_min, heart_rate_avg])
