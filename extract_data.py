@@ -1,5 +1,6 @@
 import json
 import csv
+import os
 from datetime import datetime
 
 def process_json_file(file_path):
@@ -10,12 +11,23 @@ def process_json_file(file_path):
         data_activity = data.get('physical_health',{}).get('physical_summaries') 
         data_activity_event = data.get('physical_health',{}).get('activity_events') 
 
-    # Abre el archivo data_sleep.csv en modo de escritura
-    with open('data_sleep.csv', 'w', newline='') as f:
+    # Define el nombre del archivo CSV
+    csv_file_sleep = 'data_sleep.csv'
+    csv_file_activity = 'data_activity.csv'
+    csv_file_activity_event = 'data_activity_event.csv'
+
+    # Verifica si los archivos CSV ya existen
+    file_exists_sleep = os.path.isfile(csv_file_sleep)
+    file_exists_activity = os.path.isfile(csv_file_activity)
+    file_exists_activity_event = os.path.isfile(csv_file_activity_event)
+    
+    # Abre los archivos CSV en modo append ('a')
+    with open(csv_file_sleep, 'a', newline='') as f:
         writer = csv.writer(f)
 
-        # Escribe los encabezados de las columnas
-        writer.writerow(['user_id', 'sleep_duration', 'time_in_bed', 'light', 'rem', 'deep', 'time_to_fall_asleep', 'awake', 'source'])
+        # Si el archivo no existe, escribe los encabezados de las columnas
+        if not file_exists_sleep:
+            writer.writerow(['user_id', 'sleep_duration', 'time_in_bed', 'light', 'rem', 'deep', 'time_to_fall_asleep', 'awake', 'source'])
 
         # Itera sobre los elementos en los datos
         for item in data_sleep:
@@ -37,15 +49,16 @@ def process_json_file(file_path):
             # Escribe los datos en el archivo CSV
             writer.writerow([user_id, sleep_duration, time_in_bed, light, rem, deep, time_to_fall_asleep, awake, source])
 
-
-    # Extracción de data de activity (summaries)
-    # Abre el archivo data_activity_event.csv en modo de escritura
-    with open('data_activity.csv', 'w', newline='') as f:
+    # --------------------------------------------------------------------------------
+        
+    # Abre los archivos CSV en modo append ('a')
+    with open(csv_file_activity, 'a', newline='') as f:
         writer = csv.writer(f)
 
-        # Escribe los encabezados de las columnas
-        writer.writerow(['user_id', 'datetime', 'heart_rate'])
-
+        # Si el archivo no existe, escribe los encabezados de las columnas
+        if not file_exists_activity:
+            writer.writerow(['user_id', 'datetime', 'heart_rate'])
+        
         # Itera sobre los elementos en los datos
         for item in data_activity:
             user_id = item.get('user_id')
@@ -64,14 +77,16 @@ def process_json_file(file_path):
                 # Escritura en CSV
                 writer.writerow([user_id, date, heart_rate])
 
+    # --------------------------------------------------------------------------------
 
     # Extracción de data de activity (eventos)
-    # Abre el archivo data_activity.csv en modo de escritura
-    with open('data_activity_event.csv', 'w', newline='') as f:
+    # Abre los archivos CSV en modo append ('a')
+    with open(csv_file_activity_event, 'a', newline='') as f:
         writer = csv.writer(f)
 
-        # Escribe los encabezados de las columnas
-        writer.writerow(['user_id', 'activity', 'duration', 'heart_rate_max', 'heart_rate_min', 'heart_rate_avg'])
+        # Si el archivo no existe, escribe los encabezados de las columnas
+        if not file_exists_activity_event:
+            writer.writerow(['user_id', 'activity', 'duration', 'heart_rate_max', 'heart_rate_min', 'heart_rate_avg'])
 
         # Itera sobre los elementos en los datos
         for item in data_activity_event:
@@ -100,3 +115,13 @@ process_json_file('ROOK Datasets/ROOKConnect-Garmin-dataset-v2.json')
 process_json_file('ROOK Datasets/ROOKConnect-Oura-dataset-v2.json')
 process_json_file('ROOK Datasets/ROOKConnect-Whoop-dataset-v2.json')
 process_json_file('ROOK Datasets/ROOKConnect-Polar-dataset-v2.json')
+
+# Updated
+process_json_file('ROOK Datasets/Updated 2024-04-26/ROOKConnect-Apple Health-dataset-v2.json')
+process_json_file('ROOK Datasets/Updated 2024-04-26/ROOKConnect-Fitbit-dataset-v2 (1).json')
+process_json_file('ROOK Datasets/Updated 2024-04-26/ROOKConnect-Garmin-dataset-v2.json')
+process_json_file('ROOK Datasets/Updated 2024-04-26/ROOKConnect-Health Connect-dataset-v2.json')
+process_json_file('ROOK Datasets/Updated 2024-04-26/ROOKConnect-Oura-dataset-v2.json')
+process_json_file('ROOK Datasets/Updated 2024-04-26/ROOKConnect-Polar-dataset-v2.json')
+process_json_file('ROOK Datasets/Updated 2024-04-26/ROOKConnect-Whoop-dataset-v2.json')
+process_json_file('ROOK Datasets/Updated 2024-04-26/ROOKConnect-Withings-dataset-v2.json')

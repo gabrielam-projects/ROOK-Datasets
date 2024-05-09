@@ -1,4 +1,54 @@
 user_id,activity,duration,heart_rate_max,heart_rate_min,heart_rate_avg
+65aee25a481d3d7b4a652743,Walking,900,,,,,,
+65ac862e481d3d7b4a0aa7e7,Walking,1380,,,,,,
+65959fda085e3f7296c2d6e0,Running,61,,,,121,,115
+65a6a4002448379cf347eab1,HIIT,2105,,,,178,,140
+65b3a548e123e5924f883870,Walking,1140,,,,,,
+65b01cff481d3d7b4a889783,Running,249,,,,64,,60
+65ad6fc5481d3d7b4af74657,Walking,1380,,,,,,
+65b524a70b916644540b0e6e,Walking,1440,,,,,,
+65ae44f1481d3d7b4abd642f,Strength Training,4683,,,,176,,108
+65b0f3df481d3d7b4a8f902c,Custom Type,840,,,,,,
+660acbc9bb620879ae7b4d1c,Cycling,3600,,,,,,
+660d73debb620879aef918af,Cycling,3008,,,,,,
+660ec999bb620879ae745e2a,Cycling,1218,,,,,,
+660fbe46bb620879aecffe44,Walking,3060,,,,,,
+6612ab18bb620879aebccaf3,Cycling,2591,,,,,,
+6613b891bb620879ae5e290b,Strength Training,1320,,,,,,
+6613b891bb620879ae5e2af9,Strength Training,1320,,,,,,
+661b4c24e199c5a3362a763e,Cycling,1560,,,,,,
+661b7117e199c5a33679eaa9,Unknown (Unable to Detect Activity),5160,,,,,,
+661b7119e199c5a33679ed6e,Unknown (Unable to Detect Activity),5160,,,,,,
+661b711ae199c5a33679f19c,Unknown (Unable to Detect Activity),2560,60,840,1680,220,30,109
+661b711ae199c5a33679f2a0,Unknown (Unable to Detect Activity),5160,,,,,,
+661b711be199c5a33679f5f0,Unknown (Unable to Detect Activity),4020,,,,,,
+661b7708e199c5a33686805f,Walking,3780,,,,,,
+661bf02ce199c5a336c1ee1a,Cycling,3049,,,,,,
+661c2452e199c5a3366eb042,Cycling,1378,,,,,,
+661c3b47e199c5a336ba78fd,Cycling,5838,,,,,,
+661f67a8e199c5a336a46408,Walking,2520,,,,,,
+6621088fe199c5a336653588,Unknown (Unable to Detect Activity),720,,,,,,
+662271a1fd3b48b1cd9a5641,Walking,2220,,,,,,
+662271a2fd3b48b1cd9a5700,Walking,660,,,,,,
+66235bb6fd3b48b1cda77dd7,Walking,2400,,,,,,
+66240161fd3b48b1cd8da6c4,Walking,1500,,,,,,
+6624bee9fd3b48b1cd9a5a3e,Walking,2280,,,,,,
+6625a93ffd3b48b1cd213275,Walking,1560,,,,,,
+66267495fd3b48b1cd006c52,Walking,1380,,,,,,
+662674c3fd3b48b1cd01415c,Walking,660,,,,,,
+66274a91fd3b48b1cd878017,Walking,1320,,,,,,
+6627c31340eefde5293b465c,Walking,960,,,,,,
+662ce4f940eefde529c92e16,Walking,1740,,,,,,
+65b2f63de123e5924fc57367,Unknown (Unable to Detect Activity),888,536,187,0,138,,99
+65b0533f481d3d7b4a1a6340,Unknown (Unable to Detect Activity),2745,1436,1019,0,132,,102
+65ae9130481d3d7b4a79801c,Unknown (Unable to Detect Activity),1200,696,337,0,129,,100
+6590af38085e3f7296e166f0,Unknown (Unable to Detect Activity),1860,412,374,85,152,,99
+6599e9b4085e3f7296d41bca,Unknown (Unable to Detect Activity),1320,990,325,0,125,,109
+65a88654481d3d7b4a458f86,Unknown (Unable to Detect Activity),402,308,72,0,111,,100
+65a5c7352448379cf3654868,Unknown (Unable to Detect Activity),2729,1518,794,0,130,,100
+659200b3085e3f7296ecfbcc,Unknown (Unable to Detect Activity),1783,8,17,1552,181,,152
+6599e9b3085e3f7296d41893,Unknown (Unable to Detect Activity),1320,990,325,0,125,,109
+659c9ac1085e3f7296c8920b,Unknown (Unable to Detect Activity),1140,912,12,0,120,,100
 65a589d92448379cf3d39e99,INDOOR_CYCLING,1505,,,,147,,107
 65a589d82448379cf3d39b80,INDOOR_CYCLING,1505,,,,147,,107
 659f2fe32448379cf3bb650d,,1295,,,,149,,122
@@ -9,3 +59,270 @@ user_id,activity,duration,heart_rate_max,heart_rate_min,heart_rate_avg
 65949258085e3f7296624f9c,HIIT,5063,,,,184,,130
 659eaf0b085e3f72964c678f,Walking,369,,,,130,,93
 65b07318481d3d7b4a8f44a1,Walking,184,,,,0,,0
+65aee25a481d3d7b4a652743,Walking,900,,,,,,
+65ac862e481d3d7b4a0aa7e7,Walking,1380,,,,,,
+65959fda085e3f7296c2d6e0,Running,61,,,,121,,115
+65a6a4002448379cf347eab1,HIIT,2105,,,,178,,140
+65b3a548e123e5924f883870,Walking,1140,,,,,,
+65b01cff481d3d7b4a889783,Running,249,,,,64,,60
+65ad6fc5481d3d7b4af74657,Walking,1380,,,,,,
+65b524a70b916644540b0e6e,Walking,1440,,,,,,
+65ae44f1481d3d7b4abd642f,Strength Training,4683,,,,176,,108
+65b0f3df481d3d7b4a8f902c,Custom Type,840,,,,,,
+660acbc9bb620879ae7b4d1c,Cycling,3600,,,,,,
+660d73debb620879aef918af,Cycling,3008,,,,,,
+660ec999bb620879ae745e2a,Cycling,1218,,,,,,
+660fbe46bb620879aecffe44,Walking,3060,,,,,,
+6612ab18bb620879aebccaf3,Cycling,2591,,,,,,
+6613b891bb620879ae5e290b,Strength Training,1320,,,,,,
+6613b891bb620879ae5e2af9,Strength Training,1320,,,,,,
+661b4c24e199c5a3362a763e,Cycling,1560,,,,,,
+661b7117e199c5a33679eaa9,Unknown (Unable to Detect Activity),5160,,,,,,
+661b7119e199c5a33679ed6e,Unknown (Unable to Detect Activity),5160,,,,,,
+661b711ae199c5a33679f19c,Unknown (Unable to Detect Activity),2560,60,840,1680,220,30,109
+661b711ae199c5a33679f2a0,Unknown (Unable to Detect Activity),5160,,,,,,
+661b711be199c5a33679f5f0,Unknown (Unable to Detect Activity),4020,,,,,,
+661b7708e199c5a33686805f,Walking,3780,,,,,,
+661bf02ce199c5a336c1ee1a,Cycling,3049,,,,,,
+661c2452e199c5a3366eb042,Cycling,1378,,,,,,
+661c3b47e199c5a336ba78fd,Cycling,5838,,,,,,
+661f67a8e199c5a336a46408,Walking,2520,,,,,,
+6621088fe199c5a336653588,Unknown (Unable to Detect Activity),720,,,,,,
+662271a1fd3b48b1cd9a5641,Walking,2220,,,,,,
+662271a2fd3b48b1cd9a5700,Walking,660,,,,,,
+66235bb6fd3b48b1cda77dd7,Walking,2400,,,,,,
+66240161fd3b48b1cd8da6c4,Walking,1500,,,,,,
+6624bee9fd3b48b1cd9a5a3e,Walking,2280,,,,,,
+6625a93ffd3b48b1cd213275,Walking,1560,,,,,,
+66267495fd3b48b1cd006c52,Walking,1380,,,,,,
+662674c3fd3b48b1cd01415c,Walking,660,,,,,,
+66274a91fd3b48b1cd878017,Walking,1320,,,,,,
+6627c31340eefde5293b465c,Walking,960,,,,,,
+662ce4f940eefde529c92e16,Walking,1740,,,,,,
+65b2f63de123e5924fc57367,Unknown (Unable to Detect Activity),888,536,187,0,138,,99
+65b0533f481d3d7b4a1a6340,Unknown (Unable to Detect Activity),2745,1436,1019,0,132,,102
+65ae9130481d3d7b4a79801c,Unknown (Unable to Detect Activity),1200,696,337,0,129,,100
+6590af38085e3f7296e166f0,Unknown (Unable to Detect Activity),1860,412,374,85,152,,99
+6599e9b4085e3f7296d41bca,Unknown (Unable to Detect Activity),1320,990,325,0,125,,109
+65a88654481d3d7b4a458f86,Unknown (Unable to Detect Activity),402,308,72,0,111,,100
+65a5c7352448379cf3654868,Unknown (Unable to Detect Activity),2729,1518,794,0,130,,100
+659200b3085e3f7296ecfbcc,Unknown (Unable to Detect Activity),1783,8,17,1552,181,,152
+6599e9b3085e3f7296d41893,Unknown (Unable to Detect Activity),1320,990,325,0,125,,109
+659c9ac1085e3f7296c8920b,Unknown (Unable to Detect Activity),1140,912,12,0,120,,100
+65a589d92448379cf3d39e99,INDOOR_CYCLING,1505,,,,147,,107
+65a589d82448379cf3d39b80,INDOOR_CYCLING,1505,,,,147,,107
+659f2fe32448379cf3bb650d,,1295,,,,149,,122
+6596fe29085e3f7296055517,Cycling,650,,,,118,,97
+65b2ec8ce123e5924fac6fe8,Walking,1084,,,,119,,104
+65a146e22448379cf34f939b,WALKING,1063,,,,128,,111
+65b07314481d3d7b4a8f2094,Walking,184,,,,0,,0
+65949258085e3f7296624f9c,HIIT,5063,,,,184,,130
+659eaf0b085e3f72964c678f,Walking,369,,,,130,,93
+65b07318481d3d7b4a8f44a1,Walking,184,,,,0,,0
+6626b8fb52d187d9463e3ae3,Running,2789,,,,156,62,145
+6626b8fc52d187d9463e3aeb,Running,2822,,,,156,76,146
+6626b8fd52d187d9463e3af2,Running,2894,,,,160,111,140
+6626b8ff52d187d9463e3afc,Running,2833,,,,160,111,140
+6626b90052d187d9463e3b01,Running,3111,,,,158,104,139
+6626b90252d187d9463e3b0a,Running,71758,,,,164,68,136
+6626b90268da439ebe7cd88d,Running,3034,,,,158,104,140
+6626b90452d187d9463e3b15,Running,2886,,,,164,109,140
+6626b90568da439ebe7cd894,Running,3226,,,,164,101,143
+6626b90668da439ebe7cd896,Running,3286,,,,164,101,143
+6626b91d52d187d9463e3b67,Walking,6112,,,,114,77,97
+6626c91ab361513415cf3dd9,Running,2789,,,,156,62,145
+6626c91ab361513415cf3ddc,Running,2789,,,,156,62,145
+6626c91bb361513415cf3de0,Running,2822,,,,156,76,146
+6626c91cb361513415cf3de5,Running,2822,,,,156,76,146
+6626c91cb361513415cf3de8,Running,2894,,,,160,111,140
+6626c91db361513415cf3deb,Running,2894,,,,160,111,140
+6626c91db361513415cf3df1,Running,2833,,,,160,111,140
+6626c91fb361513415cf3df9,Running,3111,,,,158,104,139
+6626c920b361513415cf3e00,Running,3034,,,,158,104,140
+6626c921b361513415cf3e0b,Running,71758,,,,164,68,136
+6626c923b361513415cf3e10,Running,2886,,,,164,109,140
+6626c924b361513415cf3e19,Running,3226,,,,164,101,143
+6626c924b361513415cf3e1b,Running,3226,,,,164,101,143
+6626c925b361513415cf3e21,Running,3286,,,,164,101,143
+6626c926b361513415cf3e23,Running,3286,,,,164,101,143
+66297ae76d5a487602d49642,Running,3304,,,,165,82,133
+662988fb6d5a487602d496f4,Running,3304,,,,165,82,133
+662989716d5a487602d496f7,Running,3304,,,,165,82,133
+66298a636d5a487602d49702,Running,2942,,,,165,82,133
+66083259bb620879ae2a165f,Unknown (Unable to Detect Activity),4045,0,2100,1980,220,30,123
+6608325fbb620879ae2a2c5a,Unknown (Unable to Detect Activity),1843,180,840,660,220,30,117
+66091c1bbb620879ae3c07e1,Biking,496,0,0,420,220,30,121
+66091c1dbb620879ae3c09e6,Running,1197,60,0,960,220,30,167
+660b3a42bb620879aec14c1f,Running,2638,240,300,1260,220,30,136
+660c99e5bb620879ae0cedb5,Walking,1231,240,420,600,220,30,107
+660dd23bbb620879ae29412b,Running,434321,0,0,0,220,30,0
+660dd348bb620879ae2c91f5,Weight Machine,2625,1020,960,180,220,30,105
+6613b9b8bb620879ae6061f8,Unknown (Unable to Detect Activity),2150,0,0,420,220,30,170
+6613b9babb620879ae6065d7,Unknown (Unable to Detect Activity),2150,0,0,420,220,30,170
+6615d12fbb620879ae9e2c07,Walking,2663,60,360,2280,220,30,106
+6616bc60bb620879aee396fc,Weight Machine,2721,0,0,2700,220,30,129
+661b79b0e199c5a3368c6068,Running,1764,0,0,1680,220,30,154
+661cc4aae199c5a336337d33,Strength Training,6215,1800,2100,2040,220,30,111
+661e31c9e199c5a336aa45ee,Running,1722,0,0,1620,220,30,166
+6620c5dce199c5a336d23a04,Weight Machine,2399,180,60,2160,220,30,119
+6620dc86e199c5a336fe7f7b,Strength Training,4585,900,1680,1380,220,30,110
+66218f48fd3b48b1cd378c2f,Walking,1177,0,120,1020,220,30,114
+66218f49fd3b48b1cd379033,Walking,1177,0,120,1020,220,30,114
+6623d17dfd3b48b1cdd246c2,Walking,973,540,360,60,220,30,107
+6623d5adfd3b48b1cde31c91,Walking,1280,720,540,60,220,30,101
+66270c94fd3b48b1cdf24442,Walking,2355,120,840,1260,220,30,102
+6628298c40eefde529d12ab4,Weight Machine,1880,0,60,1860,220,30,121
+662a2f8440eefde529ffe46b,Walking,4764,0,360,4380,220,30,98
+662bbd3d40eefde529602555,Unknown (Unable to Detect Activity),1075,660,0,0,220,30,97
+662bddd540eefde529eaacc6,Walking,1588,300,0,0,220,30,73
+662c658240eefde529b4503c,Walking,922,900,0,0,220,30,95
+662e18ca40eefde5296fb1fe,Swimming,1126,240,480,0,,,
+662e1fd340eefde5297e6a28,Elliptical,1075,1080,0,0,220,30,99
+662e5c2240eefde529231c1b,Unknown (Unable to Detect Activity),1024,300,600,0,220,30,100
+66080526bb620879ae9b5c2b,Walking,900,,,,,,
+6608052ebb620879ae9b71bd,Walking,900,,,,,,
+660b1fc6bb620879ae7e4432,Walking,2806,,,,125,,93
+660c1b5ebb620879ae8ccb8a,Walking,1320,,,,,,
+660e67ccbb620879ae5f5498,HIIT,402,,,,188,,151
+660e67d4bb620879ae5f61ff,HIIT,402,,,,188,,151
+660fd1a1bb620879aef07758,Walking,600,,,,,,
+66103f3abb620879ae6b5c31,Running,102,,,,86,,75
+66103f73bb620879ae6c2774,Walking,1140,,,,,,
+66129bf2bb620879ae8ea2e7,Walking,1320,,,,,,
+6613788ebb620879aee7045e,Custom Type,660,,,,,,
+6613abc9bb620879ae46aeb1,Walking,960,,,,,,
+6613abd3bb620879ae46c3d5,Walking,1140,,,,,,
+661424d1bb620879aeb65a58,Walking,823,,,,116,,98
+66144ff9bb620879ae4b75c1,Walking,600,,,,,,
+6615e876bb620879aecc171d,Running,2254,,,,167,,141
+6617fcd9e199c5a3365efc24,Walking,600,,,,,,
+66185889e199c5a336d2456f,Walking,1020,,,,,,
+6618fb1be199c5a33686dfa8,Walking,1920,,,,,,
+66194a96e199c5a336aa3ddd,Pilates,3050,,,,109,,79
+661bc567e199c5a3363b3b81,Walking,1320,,,,,,
+661bc569e199c5a3363b41d0,Walking,1320,,,,,,
+661ccf72e199c5a33649e358,Walking,600,,,,,,
+661de21ee199c5a336e72d2e,Cycling,1140,,,,,,
+661de226e199c5a336e74669,Cycling,600,,,,,,
+662067ade199c5a336e32210,Walking,1800,,,,,,
+6620f5a0e199c5a33631bb3e,Walking,600,,,,,,
+66210f42e199c5a3367c5ffe,Strength Training,2950,,,,163,,118
+662d104540eefde529664da8,Walking,960,,,,,,
+662e624d40eefde52938b8bc,Walking,1020,,,,,,
+6628ad4e40eefde5294692b1,Walking,623,,,,,,
+6628ad4f40eefde529469581,Walking,222,,,,,,
+6629782840eefde5290e2023,Walking,994,,,,106,80,96
+6629782a40eefde5290e2757,Walking,825,,,,127,88,113
+662be12a40eefde529f91187,Biking,227,,,,77,63,69
+662be12a40eefde529f911d0,Biking,199,,,,78,70,75
+660acbc9bb620879ae7b4d1c,Cycling,3600,,,,,,
+660d73debb620879aef918af,Cycling,3008,,,,,,
+660ec999bb620879ae745e2a,Cycling,1218,,,,,,
+660fbe46bb620879aecffe44,Walking,3060,,,,,,
+6612ab18bb620879aebccaf3,Cycling,2591,,,,,,
+6613b891bb620879ae5e290b,Strength Training,1320,,,,,,
+6613b891bb620879ae5e2af9,Strength Training,1320,,,,,,
+661b4c24e199c5a3362a763e,Cycling,1560,,,,,,
+661b7117e199c5a33679eaa9,Unknown (Unable to Detect Activity),5160,,,,,,
+661b7119e199c5a33679ed6e,Unknown (Unable to Detect Activity),5160,,,,,,
+661b711ae199c5a33679f19c,Unknown (Unable to Detect Activity),2560,60,840,1680,220,30,109
+661b711ae199c5a33679f2a0,Unknown (Unable to Detect Activity),5160,,,,,,
+661b711be199c5a33679f5f0,Unknown (Unable to Detect Activity),4020,,,,,,
+661b7708e199c5a33686805f,Walking,3780,,,,,,
+661bf02ce199c5a336c1ee1a,Cycling,3049,,,,,,
+661c2452e199c5a3366eb042,Cycling,1378,,,,,,
+661c3b47e199c5a336ba78fd,Cycling,5838,,,,,,
+661f67a8e199c5a336a46408,Walking,2520,,,,,,
+6621088fe199c5a336653588,Unknown (Unable to Detect Activity),720,,,,,,
+662271a1fd3b48b1cd9a5641,Walking,2220,,,,,,
+662271a2fd3b48b1cd9a5700,Walking,660,,,,,,
+66235bb6fd3b48b1cda77dd7,Walking,2400,,,,,,
+66240161fd3b48b1cd8da6c4,Walking,1500,,,,,,
+6624bee9fd3b48b1cd9a5a3e,Walking,2280,,,,,,
+6625a93ffd3b48b1cd213275,Walking,1560,,,,,,
+66267495fd3b48b1cd006c52,Walking,1380,,,,,,
+662674c3fd3b48b1cd01415c,Walking,660,,,,,,
+66274a91fd3b48b1cd878017,Walking,1320,,,,,,
+6627c31340eefde5293b465c,Walking,960,,,,,,
+662ce4f940eefde529c92e16,Walking,1740,,,,,,
+6609bebcbb620879ae778974,Walking,1404,,,,120,,100
+6609bebfbb620879ae7791c1,Walking,1404,,,,120,,100
+6609d5f9bb620879aea59eb9,Yoga,5743,,,,142,,79
+660b33bfbb620879aeb1e65b,HIIT,2989,,,,182,,140
+660c759bbb620879aeaf8b57,Cycling,2435,,,,128,,95
+660c759dbb620879aeaf9180,Cycling,2435,,,,128,,95
+660c75a9bb620879aeafaef9,Cycling,2435,,,,128,,95
+660df124bb620879ae75e123,Strength Training,3850,,,,151,,120
+660df125bb620879ae75e53a,Strength Training,3850,,,,151,,120
+66116c29bb620879ae7c6d15,HIIT,4666,,,,170,,130
+6611b7dfbb620879ae9154ce,Mountain Biking,4389,,,,151,,116
+6611b7e6bb620879ae916c70,Mountain Biking,4389,,,,151,,116
+6613f3ccbb620879ae05b725,Walking,1088,,,,130,,103
+6613f3d2bb620879ae05ca52,Walking,1088,,,,130,,103
+6613f3d3bb620879ae05ce86,Walking,1088,,,,130,,103
+66146e22bb620879aeaa8e46,Strength Training,2921,,,,175,,134
+66146e22bb620879aeaa9087,Strength Training,2921,,,,175,,134
+66187683e199c5a336328e8a,HIIT,6535,,,,174,,124
+661c1cece199c5a336564fdc,Circuit Training,2029,,,,152,,123
+661c1cf1e199c5a33656621b,Circuit Training,2029,,,,152,,123
+661f74dde199c5a336c05d23,HIIT,4112,,,,174,,135
+661f74e0e199c5a336c062ce,HIIT,4112,,,,174,,135
+661f74e2e199c5a336c06798,HIIT,4112,,,,174,,135
+66214502fd3b48b1cd18e769,HIIT,4572,,,,185,,135
+6622a1b8fd3b48b1cd59192f,HIIT,3333,,,,176,,117
+6622a1b9fd3b48b1cd591d6d,HIIT,3333,,,,176,,117
+662cd30540eefde5299e977f,Mountain Biking,4469,,,,158,,116
+662cd31540eefde5299ebbfe,Mountain Biking,4469,,,,158,,116
+662e544740eefde52908aa7c,Running,1191,,,,165,,135
+662e544f40eefde52908c493,Running,1191,,,,165,,135
+66077965bb620879ae9da0ae,Unknown (Unable to Detect Activity),780,462,17,0,120,,98
+6609d626bb620879aea60443,Unknown (Unable to Detect Activity),5341,324,0,0,104,,75
+660a93d5bb620879aed3dec0,Unknown (Unable to Detect Activity),1004,612,85,0,120,,92
+660c75dcbb620879aeb03a93,Unknown (Unable to Detect Activity),2455,866,0,0,104,,87
+660df173bb620879ae7691b8,Unknown (Unable to Detect Activity),3897,464,1264,538,169,,124
+660f54cebb620879ae219197,Unknown (Unable to Detect Activity),6138,2148,1148,0,145,,96
+66100169bb620879ae8b375c,Unknown (Unable to Detect Activity),3599,288,1323,150,152,,122
+661089a9bb620879ae5e0ea7,Unknown (Unable to Detect Activity),5234,1602,1798,998,180,,120
+661089adbb620879ae5e1de0,Unknown (Unable to Detect Activity),5234,1602,1798,998,180,,120
+66146e42bb620879aeaaecb4,Unknown (Unable to Detect Activity),2930,348,1154,386,173,,124
+66169a23bb620879ae637ab3,Unknown (Unable to Detect Activity),2969,0,232,1102,162,,137
+66194587e199c5a3369386a9,Unknown (Unable to Detect Activity),1260,746,327,0,137,,108
+661c1ed7e199c5a3365c8b3a,Unknown (Unable to Detect Activity),900,252,311,0,139,,105
+661e6b78e199c5a33644174e,Unknown (Unable to Detect Activity),780,590,8,0,111,,93
+661eec1de199c5a3364bdab4,Unknown (Unable to Detect Activity),4504,792,56,0,131,,88
+661f74c7e199c5a336c02cd3,Unknown (Unable to Detect Activity),4090,123,545,2498,180,,141
+661fdc0de199c5a336e31fbc,Unknown (Unable to Detect Activity),1500,982,44,0,116,,92
+6621454dfd3b48b1cd1a1570,Unknown (Unable to Detect Activity),4672,1065,1273,1416,184,,129
+66214550fd3b48b1cd1a202c,Unknown (Unable to Detect Activity),4672,1065,1273,1416,184,,129
+6621b6c1fd3b48b1cdb24f77,Unknown (Unable to Detect Activity),4855,999,1548,1338,178,,133
+6621c042fd3b48b1cdcbc056,Unknown (Unable to Detect Activity),1259,461,568,0,150,,115
+662271d4fd3b48b1cd9b0d6a,Unknown (Unable to Detect Activity),660,602,0,0,107,,94
+6622a29cfd3b48b1cd5c8bc6,Unknown (Unable to Detect Activity),3299,879,1318,692,171,,122
+6623d720fd3b48b1cde88392,Unknown (Unable to Detect Activity),1860,868,972,0,132,,108
+6625b628fd3b48b1cd3df8de,Unknown (Unable to Detect Activity),2409,535,129,0,134,,82
+662640a5fd3b48b1cd57e883,Unknown (Unable to Detect Activity),2693,1684,564,0,125,,97
+66268150fd3b48b1cd307af2,Unknown (Unable to Detect Activity),1260,642,73,0,141,,96
+662d229240eefde529b29e80,Unknown (Unable to Detect Activity),13858,145,724,11187,163,,146
+662d8d2340eefde5293268b3,Unknown (Unable to Detect Activity),1260,630,247,0,124,,95
+662ea23940eefde529170b1d,Unknown (Unable to Detect Activity),5578,159,399,3608,161,,142
+662093ace199c5a3365fce7f,,720,,,,,,
+662093aee199c5a3365fd3a5,,2640,,,,69,64,66
+662093b3e199c5a3365fde4e,,720,,,,,,
+662093b7e199c5a3365fe787,,360,,,,,,
+662093bce199c5a3365ff4b3,,2640,,,,,,
+662093bfe199c5a3365ffbce,,1140,,,,,,
+6621bea9fd3b48b1cdc6ba24,,300,,,,,,
+66231a6bfd3b48b1cdfbbce2,,840,,,,,,
+6623e4ddfd3b48b1cd1dacda,,660,,,,,,
+6623e4defd3b48b1cd1db1b8,,300,,,,,,
+6623e4dffd3b48b1cd1db822,,420,,,,,,
+6625579bfd3b48b1cd3ab297,,1260,,,,95,65,75
+6625579dfd3b48b1cd3abdab,,2040,,,,,,
+6625ab2afd3b48b1cd25e297,,1440,,,,,,
+66271e84fd3b48b1cd244d53,,840,,,,,,
+66271e86fd3b48b1cd2450f1,,480,,,,,,
+66271e87fd3b48b1cd2453a0,,840,,,,,,
+66271e88fd3b48b1cd245677,,1260,,,,,,
+662a3a2d40eefde5291b5603,,360,,,,,,
+662d2fad40eefde529e8bf61,,1320,,,,100,80,89
+662e907e40eefde529dadcb2,,540,,,,95,69,81
