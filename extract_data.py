@@ -27,12 +27,18 @@ def process_json_file(file_path):
 
         # Si el archivo no existe, escribe los encabezados de las columnas
         if not file_exists_sleep:
-            writer.writerow(['user_id', 'sleep_duration', 'time_in_bed', 'light', 'rem', 'deep', 'time_to_fall_asleep', 'awake', 'source'])
+            writer.writerow(['user_id', 'date', 'sleep_duration', 'time_in_bed', 'light', 'rem', 'deep', 'time_to_fall_asleep', 'awake', 'source'])
 
         # Itera sobre los elementos en los datos
         for item in data_sleep:
             user_id = item.get("user_id")
             sleep_summary = item.get('sleep_health',{}).get('summary',{}).get('sleep_summary',{}).get('duration')
+
+            datetime_str = sleep_summary.get('sleep_date_string')
+            # Ajustar formato de fecha
+            dt = datetime.fromisoformat(datetime_str)
+            dt = dt.replace(tzinfo=None)
+            date = dt.isoformat()
 
             # Datos relevantes
             sleep_duration = sleep_summary.get('sleep_duration_seconds_int')
@@ -47,7 +53,7 @@ def process_json_file(file_path):
             source = item.get('sleep_health',{}).get('summary',{}).get('sleep_summary',{}).get('metadata',{}).get('sources_of_data_array')
 
             # Escribe los datos en el archivo CSV
-            writer.writerow([user_id, sleep_duration, time_in_bed, light, rem, deep, time_to_fall_asleep, awake, source])
+            writer.writerow([user_id, date, sleep_duration, time_in_bed, light, rem, deep, time_to_fall_asleep, awake, source])
 
     # --------------------------------------------------------------------------------
         
@@ -57,11 +63,14 @@ def process_json_file(file_path):
 
         # Si el archivo no existe, escribe los encabezados de las columnas
         if not file_exists_activity:
-            writer.writerow(['user_id', 'datetime', 'heart_rate'])
+            writer.writerow(['user_id', 'datetime', 'heart_rate', 'sources'])
         
         # Itera sobre los elementos en los datos
         for item in data_activity:
             user_id = item.get('user_id')
+
+            # Source
+            source = item.get('physical_health',{}).get('summary',{}).get('physical_summary',{}).get('metadata',{}).get('sources_of_data_array')
 
             # Datos relevantes
             granular_data = item.get('physical_health',{}).get('summary',{}).get('physical_summary',{}).get('heart_rate',{}).get('hr_granular_data_array')
@@ -75,7 +84,7 @@ def process_json_file(file_path):
                 date = dt.isoformat()
 
                 # Escritura en CSV
-                writer.writerow([user_id, date, heart_rate])
+                writer.writerow([user_id, date, heart_rate, source])
 
     # --------------------------------------------------------------------------------
 
@@ -86,7 +95,7 @@ def process_json_file(file_path):
 
         # Si el archivo no existe, escribe los encabezados de las columnas
         if not file_exists_activity_event:
-            writer.writerow(['user_id', 'activity', 'duration', 'heart_rate_max', 'heart_rate_min', 'heart_rate_avg'])
+            writer.writerow(['user_id', 'activity', 'duration', 'heart_rate_max', 'heart_rate_min', 'heart_rate_avg', 'source'])
 
         # Itera sobre los elementos en los datos
         for item in data_activity_event:
@@ -106,8 +115,18 @@ def process_json_file(file_path):
                 heart_rate_min = item.get('heart_rate',{}).get('hr_minimum_bpm_int')
                 heart_rate_avg = item.get('heart_rate',{}).get('hr_avg_bpm_int')
 
+                datetime_str = item.get('metadata',{}).get('datetime_string')
+
+                # Ajustar formato de fecha
+                dt = datetime.fromisoformat(datetime_str)
+                dt = dt.replace(tzinfo=None)
+                date = dt.isoformat()
+
+                # Source
+                source = item.get('metadata',{}).get('sources_of_data_array')
+
                 # Escritura en CSV
-                writer.writerow([user_id, activity, duration, low_intensity, moderate_intensity, vigorous_intensity, heart_rate_max, heart_rate_min, heart_rate_avg])
+                writer.writerow([user_id, date, activity, duration, low_intensity, moderate_intensity, vigorous_intensity, heart_rate_max, heart_rate_min, heart_rate_avg, source])
 
 
 # Llamada de la función
