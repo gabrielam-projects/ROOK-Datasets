@@ -21,6 +21,8 @@ def process_json_file(file_path):
     file_exists_activity = os.path.isfile(csv_file_activity)
     file_exists_activity_event = os.path.isfile(csv_file_activity_event)
     
+    # ----- SLEEP DATA ---------------------------------------------------------------------------
+
     # Abre los archivos CSV en modo append ('a')
     with open(csv_file_sleep, 'a', newline='') as f:
         writer = csv.writer(f)
@@ -55,7 +57,7 @@ def process_json_file(file_path):
             # Escribe los datos en el archivo CSV
             writer.writerow([user_id, date, sleep_duration, time_in_bed, light, rem, deep, time_to_fall_asleep, awake, source])
 
-    # --------------------------------------------------------------------------------
+    # ----- ACTIVITY DATA ---------------------------------------------------------------------------
         
     # Abre los archivos CSV en modo append ('a')
     with open(csv_file_activity, 'a', newline='') as f:
@@ -86,7 +88,7 @@ def process_json_file(file_path):
                 # Escritura en CSV
                 writer.writerow([user_id, date, heart_rate, source])
 
-    # --------------------------------------------------------------------------------
+    # ----- ACTIVITY SUMMARIES ---------------------------------------------------------------------------
 
     # Extracción de data de activity (eventos)
     # Abre los archivos CSV en modo append ('a')
@@ -95,7 +97,7 @@ def process_json_file(file_path):
 
         # Si el archivo no existe, escribe los encabezados de las columnas
         if not file_exists_activity_event:
-            writer.writerow(['user_id', 'activity', 'duration', 'heart_rate_max', 'heart_rate_min', 'heart_rate_avg', 'source'])
+            writer.writerow(['user_id', 'datetime', 'activity', 'duration', 'low_intensity', 'moderate_intensity', 'vigorous_intensity', 'heart_rate_max', 'heart_rate_min', 'heart_rate_avg', 'source'])
 
         # Itera sobre los elementos en los datos
         for item in data_activity_event:
