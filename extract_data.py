@@ -36,7 +36,7 @@ def process_json_file(file_path):
             user_id = item.get("user_id")
             sleep_summary = item.get('sleep_health',{}).get('summary',{}).get('sleep_summary',{}).get('duration')
 
-            datetime_str = sleep_summary.get('sleep_date_string')
+            datetime_str = sleep_summary.get('sleep_start_datetime_string')
             # Ajustar formato de fecha
             dt = datetime.fromisoformat(datetime_str)
             dt = dt.replace(tzinfo=None)
