@@ -2,6 +2,7 @@ import json
 import csv
 import os
 from datetime import datetime
+from dateutil.parser import isoparse
 
 def process_json_file(file_path):
     # Abre y carga el archivo JSON
@@ -38,7 +39,7 @@ def process_json_file(file_path):
 
             datetime_str = sleep_summary.get('sleep_start_datetime_string')
             # Ajustar formato de fecha
-            dt = datetime.fromisoformat(datetime_str)
+            dt = isoparse(datetime_str)
             dt = dt.replace(tzinfo=None)
             date = dt.isoformat()
 
@@ -132,17 +133,22 @@ def process_json_file(file_path):
 
 
 # Llamada de la función
-process_json_file('ROOK Datasets/ROOKConnect-Garmin-dataset-v2.json')
-process_json_file('ROOK Datasets/ROOKConnect-Oura-dataset-v2.json')
-process_json_file('ROOK Datasets/ROOKConnect-Whoop-dataset-v2.json')
-process_json_file('ROOK Datasets/ROOKConnect-Polar-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK Datasets/Originals/ROOKConnect-Fitbit-dataset-v2.json')
+#process_json_file('ROOK-Datasets/ROOK Datasets/Originals/ROOKConnect-Garmin-dataset-v2.json')
+#process_json_file('ROOK-Datasets/ROOK Datasets/Originals/ROOKConnect-Oura-dataset-v2.json')
+#process_json_file('ROOK-Datasets/ROOK Datasets/Originals/ROOKConnect-Polar-dataset-v2.json')
+#process_json_file('ROOK-Datasets/ROOK Datasets/Originals/ROOKConnect-Whoop-dataset-v2.json')
+#process_json_file('ROOK-Datasets/ROOK Datasets/Originals/ROOKConnect.json')
 
-# Updated
-process_json_file('ROOK Datasets/Updated 2024-04-26/ROOKConnect-Apple Health-dataset-v2.json')
-process_json_file('ROOK Datasets/Updated 2024-04-26/ROOKConnect-Fitbit-dataset-v2 (1).json')
-process_json_file('ROOK Datasets/Updated 2024-04-26/ROOKConnect-Garmin-dataset-v2.json')
-process_json_file('ROOK Datasets/Updated 2024-04-26/ROOKConnect-Health Connect-dataset-v2.json')
-process_json_file('ROOK Datasets/Updated 2024-04-26/ROOKConnect-Oura-dataset-v2.json')
-process_json_file('ROOK Datasets/Updated 2024-04-26/ROOKConnect-Polar-dataset-v2.json')
-process_json_file('ROOK Datasets/Updated 2024-04-26/ROOKConnect-Whoop-dataset-v2.json')
-process_json_file('ROOK Datasets/Updated 2024-04-26/ROOKConnect-Withings-dataset-v2.json')
+# Updated 2024-12-19
+""" process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Android-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Apple Health - Third Party-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Apple Health-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Fitbit-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Garmin-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Health Connect - Third Party-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Oura-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Polar-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-small-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Whoop-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Withings-dataset-v2.json') """
