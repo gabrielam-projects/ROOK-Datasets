@@ -133,22 +133,123 @@ def process_json_file(file_path):
 
 
 # Llamada de la función
-process_json_file('ROOK-Datasets/ROOK Datasets/Originals/ROOKConnect-Fitbit-dataset-v2.json')
-#process_json_file('ROOK-Datasets/ROOK Datasets/Originals/ROOKConnect-Garmin-dataset-v2.json')
-#process_json_file('ROOK-Datasets/ROOK Datasets/Originals/ROOKConnect-Oura-dataset-v2.json')
-#process_json_file('ROOK-Datasets/ROOK Datasets/Originals/ROOKConnect-Polar-dataset-v2.json')
-#process_json_file('ROOK-Datasets/ROOK Datasets/Originals/ROOKConnect-Whoop-dataset-v2.json')
-#process_json_file('ROOK-Datasets/ROOK Datasets/Originals/ROOKConnect.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Originals/ROOKConnect-Fitbit-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Originals/ROOKConnect-Garmin-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Originals/ROOKConnect-Oura-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Originals/ROOKConnect-Polar-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Originals/ROOKConnect-Whoop-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Originals/ROOKConnect.json')
+
+
+# Updated 2024-03-04
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-03-04/rook-data-datasets-cdb02642ab75393ae92f1d2750c7eb472434bf8a/ROOKConnect-Apple Health-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-03-04/rook-data-datasets-cdb02642ab75393ae92f1d2750c7eb472434bf8a/ROOKConnect-Fitbit-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-03-04/rook-data-datasets-cdb02642ab75393ae92f1d2750c7eb472434bf8a/ROOKConnect-Garmin-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-03-04/rook-data-datasets-cdb02642ab75393ae92f1d2750c7eb472434bf8a/ROOKConnect-Health Connect-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-03-04/rook-data-datasets-cdb02642ab75393ae92f1d2750c7eb472434bf8a/ROOKConnect-Oura-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-03-04/rook-data-datasets-cdb02642ab75393ae92f1d2750c7eb472434bf8a/ROOKConnect-Polar-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-03-04/rook-data-datasets-cdb02642ab75393ae92f1d2750c7eb472434bf8a/ROOKConnect-Whoop-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-03-04/rook-data-datasets-cdb02642ab75393ae92f1d2750c7eb472434bf8a/ROOKConnect-Withings-dataset-v2.json')
+
+
+# Updated 2024-04-26
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-04-26/ROOKConnect-Apple Health-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-04-26/ROOKConnect-Fitbit-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-04-26/ROOKConnect-Garmin-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-04-26/ROOKConnect-Health Connect-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-04-26/ROOKConnect-Oura-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-04-26/ROOKConnect-Polar-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-04-26/ROOKConnect-Whoop-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-04-26/ROOKConnect-Withings-dataset-v2.json')
+
 
 # Updated 2024-12-19
-""" process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Android-dataset-v2.json')
-process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Apple Health - Third Party-dataset-v2.json')
-process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Apple Health-dataset-v2.json')
-process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Fitbit-dataset-v2.json')
-process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Garmin-dataset-v2.json')
-process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Health Connect - Third Party-dataset-v2.json')
-process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Oura-dataset-v2.json')
-process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Polar-dataset-v2.json')
-process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-small-dataset-v2.json')
-process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Whoop-dataset-v2.json')
-process_json_file('ROOK-Datasets/ROOK Datasets/Updated 2024-12-19/ROOKConnect-Withings-dataset-v2.json') """
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-12-19/ROOKConnect-Android-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-12-19/ROOKConnect-Apple Health - Third Party-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-12-19/ROOKConnect-Apple Health-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-12-19/ROOKConnect-Fitbit-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-12-19/ROOKConnect-Garmin-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-12-19/ROOKConnect-Health Connect - Third Party-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-12-19/ROOKConnect-Health Connect-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-12-19/ROOKConnect-Oura-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-12-19/ROOKConnect-Polar-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-12-19/ROOKConnect-small-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-12-19/ROOKConnect-Whoop-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/Updated_2024-12-19/ROOKConnect-Withings-dataset-v2.json')
+
+
+# 2024-05-30
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-05-30/ROOKConnect-Apple Health-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-05-30/ROOKConnect-Fitbit-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-05-30/ROOKConnect-Garmin-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-05-30/ROOKConnect-Health Connect-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-05-30/ROOKConnect-Oura-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-05-30/ROOKConnect-Polar-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-05-30/ROOKConnect-small-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-05-30/ROOKConnect-Whoop-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-05-30/ROOKConnect-Withings-dataset-v2.json')
+
+
+# 2024-07-08
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-07-08/ROOKConnect-Apple Health-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-07-08/ROOKConnect-Fitbit-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-07-08/ROOKConnect-Garmin-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-07-08/ROOKConnect-Health Connect-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-07-08/ROOKConnect-Oura-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-07-08/ROOKConnect-Polar-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-07-08/ROOKConnect-small-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-07-08/ROOKConnect-Whoop-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-07-08/ROOKConnect-Withings-dataset-v2.json')
+
+
+# 2024-09-10
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-09-10/ROOKConnect-Apple Health-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-09-10/ROOKConnect-Fitbit-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-09-10/ROOKConnect-Garmin-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-09-10/ROOKConnect-Health Connect-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-09-10/ROOKConnect-Oura-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-09-10/ROOKConnect-Polar-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-09-10/ROOKConnect-small-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-09-10/ROOKConnect-Whoop-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-09-10/ROOKConnect-Withings-dataset-v2.json')
+
+
+# 2024-10-11
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-10-11/ROOKConnect-Apple Health-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-10-11/ROOKConnect-Fitbit-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-10-11/ROOKConnect-Garmin-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-10-11/ROOKConnect-Health Connect-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-10-11/ROOKConnect-Oura-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-10-11/ROOKConnect-Polar-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-10-11/ROOKConnect-small-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-10-11/ROOKConnect-Whoop-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2024-10-11/ROOKConnect-Withings-dataset-v2.json')
+
+
+# 2025-01-28
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-01-28/ROOKConnect-Apple Health-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-01-28/ROOKConnect-Fitbit-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-01-28/ROOKConnect-Garmin-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-01-28/ROOKConnect-Health Connect - Third Party-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-01-28/ROOKConnect-Health Connect-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-01-28/ROOKConnect-Oura-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-01-28/ROOKConnect-Polar-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-01-28/ROOKConnect-small-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-01-28/ROOKConnect-Whoop-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-01-28/ROOKConnect-Withings-dataset-v2.json')
+
+
+# 2025-02-07
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-02-07/ROOKConnect-Android-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-02-07/ROOKConnect-Apple Health - Third Party-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-02-07/ROOKConnect-Apple Health-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-02-07/ROOKConnect-Dexcom-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-02-07/ROOKConnect-Fitbit-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-02-07/ROOKConnect-Garmin-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-02-07/ROOKConnect-Health Connect - Third Party-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-02-07/ROOKConnect-Health Connect-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-02-07/ROOKConnect-Oura-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-02-07/ROOKConnect-Polar-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-02-07/ROOKConnect-small-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-02-07/ROOKConnect-Whoop-dataset-v2.json')
+process_json_file('ROOK-Datasets/ROOK-Datasets/2025-02-07/ROOKConnect-Withings-dataset-v2.json')
